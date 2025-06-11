@@ -7,5 +7,4 @@ public interface UsersDao {
 	public boolean authenticate(String username, String password);
 	public boolean adminCheck(String username, String password);
 	public Iterator<Users> getUsers();
-	
 }
